@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    background: rgb(3, 3, 48);
+    padding: 20px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+main{
+    background-color: rgb(233, 227, 227);
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.die__container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 2rem;
+    gap: 2rem;
+    margin: auto;
+    
+}
+button{
+    padding: 0.7rem 1rem;
+    color: #fff;
+    background-color: rgb(36, 36, 188);
+    font-size: 1.3rem;
+    font-family: 'Comfortaa', cursive;
+    width: fit-content;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    transition: 200ms ease-in;
+}
+
+button:hover{
+    color: rgb(36, 36, 188);
+    background-color: #fff;
+    border: 1px solid rgb(36, 36, 188);
+}
+.title{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.instructions{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.rollCount{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: rgb(36, 36, 188);
+}
+.tenzies{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #59E391;
+    padding-top: 1rem;
+}

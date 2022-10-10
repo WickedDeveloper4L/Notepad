@@ -1,0 +1,92 @@
+.input__con{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+    width: 100vw;
+    padding: 1rem;
+    padding-top: 12rem;
+    
+}
+
+.input__top{
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input__bottom{
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn__con{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.generate{
+    width: 20vw;
+    padding: 1rem;
+    background-color: rgb(123, 11, 123);
+    border-radius: 7px;
+    border-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: 200ms ease-in-out;
+}
+
+.generate:hover{
+    color: rgb(123, 11, 123);
+    background-color: #fff;
+    border-color: rgb(123, 11, 123);
+}
+
+.meme__display{
+    height: 500px;
+    padding: 2rem;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+.meme__container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top__text{
+    position: absolute;
+    left: 45%;
+    z-index: 2;
+    top: 25rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgba(255, 200, 19, 0.84);
+    text-align: center;
+}
+.bottom__text{
+    position: absolute;
+    left: 40%;
+    z-index: 2;
+    top: 47rem;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(255, 200, 19, 0.84);
+}
